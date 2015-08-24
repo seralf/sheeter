@@ -1,0 +1,131 @@
+format version: 5
+output mode:
+1 items
+0 -> multiple
+output directories:
+1 items
+/home/seralf/development/SERALF/sheeter/src/main/scala -> /home/seralf/development/SERALF/sheeter/target/classes
+compile options:
+8 items
+0 -> -javabootclasspath
+1 -> /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar
+2 -> -javaextdirs
+3 ->  
+4 -> -bootclasspath
+5 -> /home/seralf/sw/ScalaIDE/plugins/org.scala-lang.scala-library_2.11.6.v20150224-172222-092690e7bf.jar
+6 -> -encoding
+7 -> UTF-8
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.6
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> false
+products:
+12 items
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/CSVParser$$anonfun$1.class
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/CSVParser$$anonfun$2$$anonfun$3.class
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/CSVParser$$anonfun$2$$anonfun$4.class
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/CSVParser$$anonfun$2.class
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/CSVParser$$anonfun$json_rows$1.class
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/CSVParser$$anonfun$save_json$1.class
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/CSVParser.class
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/FileUtils$.class
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/FileUtils.class
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/MainCSV$.class
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/MainCSV$delayedInit$body.class
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/MainCSV.class
+binary dependencies:
+7 items
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /home/seralf/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.1/jackson-databind-2.6.1.jar
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /home/seralf/.m2/repository/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.6.1/jackson-module-scala_2.11-2.6.1.jar
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /home/seralf/.m2/repository/com/typesafe/config/1.3.0/config-1.3.0.jar
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /home/seralf/.m2/repository/org/apache/commons/commons-csv/1.1/commons-csv-1.1.jar
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /home/seralf/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /home/seralf/sw/ScalaIDE/plugins/org.scala-lang.scala-library_2.11.6.v20150224-172222-092690e7bf.jar
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+12 items
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> it.seralf.sheeter.CSVParser
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> it.seralf.sheeter.CSVParser$$anonfun$1
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> it.seralf.sheeter.CSVParser$$anonfun$2
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> it.seralf.sheeter.CSVParser$$anonfun$2$$anonfun$3
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> it.seralf.sheeter.CSVParser$$anonfun$2$$anonfun$4
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> it.seralf.sheeter.CSVParser$$anonfun$json_rows$1
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> it.seralf.sheeter.CSVParser$$anonfun$save_json$1
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> it.seralf.sheeter.FileUtils
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> it.seralf.sheeter.FileUtils$
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> it.seralf.sheeter.MainCSV
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> it.seralf.sheeter.MainCSV$
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> it.seralf.sheeter.MainCSV$delayedInit$body
+used names:
+0 items
+product stamps:
+12 items
+/home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/CSVParser$$anonfun$1.class -> lastModified(1440411601000)
+/home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/CSVParser$$anonfun$2$$anonfun$3.class -> lastModified(1440411601000)
+/home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/CSVParser$$anonfun$2$$anonfun$4.class -> lastModified(1440411601000)
+/home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/CSVParser$$anonfun$2.class -> lastModified(1440411601000)
+/home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/CSVParser$$anonfun$json_rows$1.class -> lastModified(1440411601000)
+/home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/CSVParser$$anonfun$save_json$1.class -> lastModified(1440411601000)
+/home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/CSVParser.class -> lastModified(1440411601000)
+/home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/FileUtils$.class -> lastModified(1440411601000)
+/home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/FileUtils.class -> lastModified(1440411601000)
+/home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/MainCSV$.class -> lastModified(1440411601000)
+/home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/MainCSV$delayedInit$body.class -> lastModified(1440411601000)
+/home/seralf/development/SERALF/sheeter/target/classes/it/seralf/sheeter/MainCSV.class -> lastModified(1440411601000)
+source stamps:
+1 items
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> hash(a28ef8993da57cf6d53f61a8ec26006a53c33127)
+binary stamps:
+7 items
+/home/seralf/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.1/jackson-databind-2.6.1.jar -> lastModified(1440404031000)
+/home/seralf/.m2/repository/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.6.1/jackson-module-scala_2.11-2.6.1.jar -> lastModified(1440404205000)
+/home/seralf/.m2/repository/com/typesafe/config/1.3.0/config-1.3.0.jar -> lastModified(1432922064000)
+/home/seralf/.m2/repository/org/apache/commons/commons-csv/1.1/commons-csv-1.1.jar -> lastModified(1440403041000)
+/home/seralf/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar -> lastModified(1433538956000)
+/home/seralf/sw/ScalaIDE/plugins/org.scala-lang.scala-library_2.11.6.v20150224-172222-092690e7bf.jar -> lastModified(1425570597000)
+/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> lastModified(1440213639000)
+class names:
+7 items
+/home/seralf/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.1/jackson-databind-2.6.1.jar -> com.fasterxml.jackson.databind.ObjectMapper
+/home/seralf/.m2/repository/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.6.1/jackson-module-scala_2.11-2.6.1.jar -> com.fasterxml.jackson.module.scala.DefaultScalaModule$
+/home/seralf/.m2/repository/com/typesafe/config/1.3.0/config-1.3.0.jar -> com.typesafe.config.ConfigFactory
+/home/seralf/.m2/repository/org/apache/commons/commons-csv/1.1/commons-csv-1.1.jar -> org.apache.commons.csv.CSVRecord
+/home/seralf/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar -> org.slf4j.LoggerFactory
+/home/seralf/sw/ScalaIDE/plugins/org.scala-lang.scala-library_2.11.6.v20150224-172222-092690e7bf.jar -> scala.App
+/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+1 items
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAMuypQAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAANzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAZaXQuc2VyYWxmLnNoZWV0ZXIuTWFpbkNTVnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAJ0ABBzY2FsYS5kZXByZWNhdGVkdAAac2NhbGEuZGVwcmVjYXRlZE92ZXJyaWRpbmdzcgATeHNidGkuU2FmZUxhenkkSW1wbDuRTxH0RUzJAgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+ADF4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+ADAAcHNxAH4ANXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgAVTAAJaW5oZXJpdGVkcQB+ABVMAAdwYXJlbnRzcQB+ABV4cQB+ADlzcQB+ADAAcHNxAH4ANXVxAH4AEAAAAABzcQB+ADAAcHNxAH4ANXVxAH4AEAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AFnEAfgAgdXEAfgAhAAAAAXNyABR4c2J0aS5hcGkuQW5ub3RhdGlvbt4OgaL2XAqyAgACWwAJYXJndW1lbnRzdAAfW0x4c2J0aS9hcGkvQW5ub3RhdGlvbkFyZ3VtZW50O0wABGJhc2VxAH4ARnhwdXIAH1tMeHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudDtRnaaPOCUPeAIAAHhwAAAAAXNyABx4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW501kWx2AMbF3wCAAJMAARuYW1lcQB+ABxMAAV2YWx1ZXEAfgAceHB0AAB0ACooIm1haW4gc2hvdWxkIG5vdCBiZSBvdmVycmlkZGVuIiwiMi4xMS4wIilzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+ABxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgA4dAAUZGVwcmVjYXRlZE92ZXJyaWRpbmdzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+ADhzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAceHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AGBzcQB+ACMAdAAEbWFpbnVxAH4AJgAAAABzcQB+AFN0AARVbml0cQB+AFl1cgAaW0x4c2J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
+external apis:
+0 items
+source infos:
+1 items
+/home/seralf/development/SERALF/sheeter/src/main/scala/it/seralf/sheeter/MainCSV.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT184oT51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANi9ob21lL3NlcmFsZi9kZXZlbG9wbWVudC9TRVJBTEYvc2hlZXRlci90YXJnZXQvY2xhc3Nlc3QANi9ob21lL3NlcmFsZi9kZXZlbG9wbWVudC9TRVJBTEYvc2hlZXRlci9zcmMvbWFpbi9zY2FsYQ==
