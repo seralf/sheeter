@@ -1,6 +1,8 @@
 package it.seralf.tabold
 
-import scala.collection.immutable.HashMap
+import java.util.HashMap
+
+//import scala.collection.immutable.HashMap
 
 object Table {
 

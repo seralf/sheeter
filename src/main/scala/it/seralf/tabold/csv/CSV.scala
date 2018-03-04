@@ -22,7 +22,7 @@ class CSV(file_name: String, separator: Char = ',', delimiter: Char = '"', valid
 
   //  def headers(): Map[String, Class[_ <: Object]] = _headers
 
-  def headers() = {
+  def headers(): Seq[(String, Object)] = {
 
     val random_line = parse_line(parse_lines(file).toList.toStream(1))
     val _types = guess_types(random_line)
@@ -30,10 +30,13 @@ class CSV(file_name: String, separator: Char = ',', delimiter: Char = '"', valid
     val first_line = parse_lines(file).toList.toStream.head
     parse_line(first_line)
       .zip(_types)
+      .toStream
 
   }
 
-  def guess_types(line: List[String]) = {
+  def keys: Seq[String] = headers.map(_._1).toList
+
+  def guess_types(line: Seq[String]): Seq[Class[_]] = {
 
     import scala.util.control.Exception.allCatch
 
@@ -46,7 +49,7 @@ class CSV(file_name: String, separator: Char = ',', delimiter: Char = '"', valid
         s.size > 3 &&
         Try { new URI(s) }.isSuccess
 
-    line.map {
+    line.toStream.map {
       item =>
 
         //        println()
@@ -69,23 +72,41 @@ class CSV(file_name: String, separator: Char = ',', delimiter: Char = '"', valid
   }
 
   //  def rows(): Stream[Map[String, Object]] = {
-  def rows() = {
+  def rows(): Seq[Seq[_]] = {
     parse_lines(file)
       .toStream
       .tail
       .map {
         line =>
-          parse_line(line)
+          parse_line(line).toStream
       }
-      .map {
-        row =>
-          guess_types(row)
+      //      .zipWithIndex
+      //      .map {
+      //        case (row, row_num) => (Stream(row_num) ++ row.toStream
+      //      }
+      .map { row =>
+        // guess_types(row)
 
-          if (validation)
-            assert(row.size == headers.size)
-          row
+        if (validation)
+          assert(row.size == headers.size)
+
+        row
       }
   }
+
+  def table() = {
+
+    // TODO: calculation at start!
+    val _headers = headers()
+
+    rows().toStream
+      .map { row =>
+        _headers.zip(row)
+      }
+
+  }
+
+  def size() = table().size
 
   def start() {
     logger.info(s"#### START")
@@ -98,6 +119,7 @@ class CSV(file_name: String, separator: Char = ',', delimiter: Char = '"', valid
   // -----------------------------------------------
 
   def parse_lines(file: File): List[String] = {
+    // TODO: consider opening/closing with start/stop
     val src = Source.fromFile(file)("UTF-8")
     val lines = src.getLines()
       .filterNot(_.startsWith(comment))

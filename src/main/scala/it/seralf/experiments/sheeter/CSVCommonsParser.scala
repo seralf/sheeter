@@ -85,7 +85,7 @@ class CSVCommonsParser(input_file: String) {
       .foreach {
         item =>
           val _row = item.get("_row").get
-          logger.info(s"saving row: s{_row}")
+          logger.info(s"saving row: ${_row}")
 
           if (multiple_json) {
             val file_out = s"${out_folder}/${file_in.getName}_${_row}.json"

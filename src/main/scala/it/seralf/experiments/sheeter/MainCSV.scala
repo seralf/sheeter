@@ -13,11 +13,16 @@ import org.slf4j.LoggerFactory
 
 object MainCSV extends App {
 
-  val file_in = new File(args { 0 })
+  
+//  val file_in = new File(args { 0 })
 
+  val file_in =  new File("src/main/resources/tate/artwork_data.csv")
+  
   val csv = new CSVCommonsParser(file_in.getCanonicalPath)
 
-  csv.save_json(args{1})
+//  csv.save_json(args{1})
+  
+  csv.save_json("target/exported.json")
 
 }
 
